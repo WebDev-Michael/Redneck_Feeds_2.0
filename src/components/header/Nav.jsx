@@ -7,7 +7,10 @@ const Nav = () => {
    if(error) return <p>Error: { error } </p>;
 
     return ( 
-        <NavLink to='/'>Home</NavLink>
+      <>
+         <NavLink to='/'>Home</NavLink>
+      </>
+        
 
      );
 }
