@@ -1,5 +1,5 @@
 import { useFetchData } from "../hooks";
-
+import smallButton from "../header/SmallButton";
 
 export default function Home(){
   const { data: categories, error } = useFetchData("process.env.categories");
@@ -9,7 +9,7 @@ export default function Home(){
   return (
     categories.map(() => {
 
-      // Home page goes here.
+     
 
     })
   );
